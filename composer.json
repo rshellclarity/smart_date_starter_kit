@@ -1,5 +1,5 @@
 {
-  "name": "drupal/smart_date_starter_kit",
+  "name": "rshellclarity/smart_date_starter_kit",
   "type": "drupal-module",
   "description": "A content type and view to help you get started with Smart Date.",
   "keywords": ["Drupal"],
