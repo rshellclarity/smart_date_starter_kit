@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.smart_event.body
+    - field.field.node.smart_event.field_when
+    - node.type.smart_event
+  module:
+    - smart_date
+    - text
+    - user
+id: node.smart_event.default
+targetEntityType: node
+bundle: smart_event
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_when:
+    weight: 1
+    label: above
+    settings:
+      format: default
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: smartdate_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
